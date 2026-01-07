@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Connexion UCAD</title>
+    <style>
+        section{
+            width: 50%;
+            border: 1px solid;
+            margin-left: 25%;
+            border-radius: lightgray;
+        }
+        h4{
+            text-align: center;
+            padding: 20px;
+            background-color: lightgray;
+        }
+        
+        #infos{
+            padding: 15px;
+            background-color: rgb(185,230,244);
+            color: rgb(92, 165, 210);
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        input{
+            width: 90%;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .btn{
+            margin left: 80% ;
+        }
+
+        .btn button{
+            background-color: rgb(185,230,244);
+            margin-left: 80%;
+            padding: 5px;
+            color: white;
+            border-color:  rgb(92, 165, 210);
+            border-radius: 5px;
+        }
+
+        form{
+            padding: 30px;
+        }
+
+        .liens{
+            background-color: #f4f4f4;
+            padding: 12px;
+        }
+
+        .mp{
+            background-color:  #a5ab48;
+            border-color:rgb(152,190,247) ;
+        }
+
+        .Va{
+            background-color: blue;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <h4>Espace étudiant</h4>
+     <div id="infos"> 
+        Veuillez renseigner le nom d'utilisateur et le mot de passe
+      </div>
+     <form>
+         <div class="input-container">
+            <input type="text" name="nom" placeholder="Nom d'utilisateur">
+         </div>
+         <div>
+
+             <input type="password" name="mp" placeholder="Mot de passe" >
+         </div>
+         <div class="btn">
+             <button>Se connecter</button>
+         </div>
+         <div class="liens">
+             <button class="mp">Mot de passe oblié ?</button>
+             <button class="Va">Vérifier autorisation ?</button>
+             <a href="compte.html">Créer un compte</a>
+         </div>
+     </form>
+     </section>
+</body>
+</html>
